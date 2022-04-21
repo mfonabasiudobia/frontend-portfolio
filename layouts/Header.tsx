@@ -18,7 +18,7 @@ const Header = () => {
 	return (
   <nav  className="w-full sticky top-0 z-50 bg-gray-500">
    <div className={styles.navWrapper}>
-          <img alt="" src="/images/logo.png" className="h-10 object-cover" />
+          <img alt="" src="/images/logo.png" className="h-10 object-cover rounded-full" />
 
           <ul className={styles.pcNavWrapper}>
             {nav.map((item, index) =>  

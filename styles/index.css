@@ -31,7 +31,7 @@
   }
 
   .page-wrapper {
-    @apply relative min-h-[100vh];
+    @apply relative min-h-[100vh] overflow-x-hidden;
   }
 
   .form-control {

@@ -6,7 +6,7 @@ const styles = {
     mainWrapper : `relative overflow-hidden py-10`,
     innerWrapper : `container relative z-10 space-y-10`,
     title : `text-3xl md:text-5xl font-bold text-blue-500 text-center`,
-    portfolioWrapper : `grid grid-cols-1 md:grid-cols-3  gap-5 md:gap-10`,
+    portfolioWrapper : `grid grid-cols-1 md:grid-cols-3 gap-10`,
     portfolioItem : `flex flex-col relative items-center group space-y-3 border justify-center text-base md:text-lg font-semibold`,
     portfolioItemImage : `cursor-pointer relative w-full h-[40vh] object-cover object-top`,
     portfolioDetails : `hidden group-hover:flex flex-col items-center justify-center space-y-3 absolute -top-5 left-0 w-full h-full after:absolute after:bg-white after:opacity-80 after:top-0 after:left-0 after:z-10 after:h-full after:w-full`
