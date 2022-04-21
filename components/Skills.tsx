@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { DiCss3, DiJavascript, DiJavascript1, DiReact } from "react-icons/di";
-import { SiTailwindcss, SiAlpinedotjs, SiFirebase, SiJquery } from "react-icons/si";
+import { SiTailwindcss, SiAlpinedotjs, SiFirebase, SiJquery, SiTypescript } from "react-icons/si";
 import { BsBootstrapFill } from "react-icons/bs";
 import Link from "next/link";
 
@@ -47,6 +47,11 @@ const Intro = () => {
                 <div className={styles.skillItem}>
                     <DiJavascript  className={styles.skillItemIcon} />
                     <h2>Javascript</h2>
+                </div>
+
+                <div className={styles.skillItem}>
+                    <SiTypescript  className={styles.skillItemIcon} />
+                    <h2>Typescript</h2>
                 </div>
 
                  <div className={styles.skillItem}>
