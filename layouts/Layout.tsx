@@ -9,11 +9,11 @@ interface LayoutProps {
 const Layout = ({children} : LayoutProps ) => {
 
 	return (
-		<>
+		<div className="relative overflow-hidden">
 			<Header />
 			{ children }
 			<Footer />
-		</>
+		</div>
 	)
 }
 

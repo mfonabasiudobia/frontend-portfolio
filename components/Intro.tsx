@@ -5,7 +5,7 @@ import Link from "next/link";
 const styles = {
     mainWrapper : `relative overflow-hidden py-10`,
     innerWrapper : `container grid md:grid-cols-2 gap-10 min-h-[70vh] relative z-10`,
-    right : `flex flex-col items-center justify-center`,
+    right : `flex flex-col items-center justify-center p-5`,
     left : `flex flex-col items-start justify-center space-y-5 py-8 md:py-0`,
     socials : `flex space-x-5 justify-start`,
     title : `text-3xl md:text-5xl font-bold text-blue-500`,

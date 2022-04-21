@@ -8,7 +8,7 @@ const styles = {
     mobileNavWrapper: `z-50 absolute top-0 -right-full h-screen w-8/12 bg-white border opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300`,
     mobileNavInnerWrapper: `flex flex-col items-center w-full text-base cursor-pointer  border-b`,
     hamburgerBtn : `block md:hidden py-3 px-4 mx-2 rounded focus:outline-none hover:bg-grey-200 group`,
-    navWrapper :   `container mx-auto flex justify-between items-center py-4`,
+    navWrapper :   `container mx-auto flex justify-between items-center py-4 relative `,
     pcNavWrapper : `hidden md:flex space-x-7`, 
 }
 
@@ -16,7 +16,7 @@ const Header = () => {
 
  
 	return (
-  <nav  className="w-full sticky top-0 z-50 bg-gray-500">
+  <nav  className="w-full sticky top-0 z-50 bg-gray-500 ">
    <div className={styles.navWrapper}>
           <img alt="" src="/images/logo.png" className="h-10 object-cover rounded-full" />
 
@@ -37,7 +37,7 @@ const Header = () => {
 
                       <li className="py-4 px-6 w-full text-left blue-2-bg text-[14px]">
                         <div><strong>MfonAbasi Udobia</strong></div>
-                        <div>Fontend Developer</div>
+                        <div>Frontend Developer</div>
                       </li>
 
                       {nav.map((item, index) =>  
